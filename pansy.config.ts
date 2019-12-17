@@ -1,13 +1,21 @@
 import { Config } from '@walrus/pansy';
+import globBy from 'globby';
 
-const globBy = require('globby');
+const hooksArr = globBy.sync(['src/*/index.ts']);
+
+const inputMap: {
+  [key: string]: string;
+} = {
+  index: 'src/index.ts'
+};
+
+hooksArr.forEach((item) => {
+  const key = item.split('/')[1];
+  inputMap[key] = item;
+});
 
 const config: Config = {
-  input: {
-    index: 'src/use-modal/index.ts',
-    'use-modal': 'src/use-modal/index.ts',
-    'use-toggle': 'src/use-toggle/index.ts'
-  },
+  input: inputMap,
   output: {
     format: ['cjs', 'es']
   },

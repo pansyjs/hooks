@@ -2,10 +2,15 @@
   "name": "@pansy/hooks",
   "version": "0.0.1",
   "description": "react hooks",
-  "main": "index.js",
   "repository": "git@github.com:pansyjs/hooks.git",
   "author": "Pansy Team",
   "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "bootstrap": "yarn || npm i",
     "build": "pansy",
