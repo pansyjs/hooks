@@ -21,7 +21,8 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@pansy/is-boolean": "^0.3.3"
+    "@pansy/is-boolean": "^0.3.3",
+    "screenfull": "^5.0.0"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.2.1",
