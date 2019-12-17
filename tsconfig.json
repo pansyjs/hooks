@@ -5,6 +5,10 @@
     "module": "esnext",
     "lib": ["esnext", "dom"],
     "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
 
     /* Strict Type-Checking Options */
     "strict": true,
@@ -19,5 +23,7 @@
     "suppressImplicitAnyIndexErrors": true,
     "moduleResolution": "node",
     "experimentalDecorators": true
-  }
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
 }
