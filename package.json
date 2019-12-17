@@ -8,18 +8,20 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "yarn || npm i",
-    "build": "father build",
+    "build": "pansy",
     "test": "walrus test",
     "prettier": "walrus prettier",
     "lint": "walrus lint",
-    "lint:commit": "walrus commitlint --env HUSKY_GIT_PARAMS"
+    "lint:commit": "walrus commitlint --env HUSKY_GIT_PARAMS",
+    "prerelease": "yarn build",
+    "release": "walrus release"
   },
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@pansy/utils": "^0.3.3"
+    "@pansy/is-boolean": "^0.3.3"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.2.1",
@@ -31,6 +33,7 @@
     "husky": "^3.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
     "typescript": "^3.7.3"
   },
   "husky": {

@@ -2136,21 +2136,6 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@pansy/array-move@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/array-move/-/array-move-0.3.3.tgz#4f3afa093a838ee12bb6077585176c501a99f717"
-  integrity sha512-i77daZnxzzfN591wDY7nOtk+M7m6tTW9Il0l9C/3OneF1ug45Ns4MZ/EEfuzbQO/W/j8yW9hfFMYvxyyWUV/EQ==
-
-"@pansy/common-regexp@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/common-regexp/-/common-regexp-0.3.3.tgz#3881b3534997505e2c23c66096b2bd72ff016f16"
-  integrity sha512-rJ5uyTXbU7PCkwuUhxPVCOeBBsTquYPbEWdRTwfaB2ypmxpkdczSGLaVpCWS5tjbd12FwxH8rM4Aiz1MkVDMqA==
-
-"@pansy/delay@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/delay/-/delay-0.3.3.tgz#f75ae12047bbbc45cc37d70e8d038b96865dd001"
-  integrity sha512-yg+fOAwx/hrywrMWKSgMirfeGK8uv1/TJhrnfTAiHqHj4YYZRCSeW2ItHVL/Is5yG+AZXy49cloBS+cEPJNQUA==
-
 "@pansy/dent@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/dent/-/dent-0.2.1.tgz#aea492cb30feefaedeacfbf438d1a4cee65309ea"
@@ -2159,23 +2144,10 @@
     "@pansy/indent" "^0.2.1"
     "@pansy/is-array" "^0.2.1"
 
-"@pansy/dent@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/dent/-/dent-0.3.3.tgz#6c6a60bfb2bd3c408c7492dd8782b4483739ed80"
-  integrity sha512-ZUdsGlwbkXWz4Q/P8orYpjGMA2J1t2r8c61lCN3FGLollapC2+WH/52mtl0r0U4OJLqZ6b+e/mZ1wwn5tftR5A==
-  dependencies:
-    "@pansy/indent" "^0.3.3"
-    "@pansy/is-array" "^0.3.3"
-
 "@pansy/enhance-type@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/enhance-type/-/enhance-type-0.2.1.tgz#b6736f18882031d47d2d2a79d3d23a5daf8e34fd"
   integrity sha512-LN5iPizQNZ8LMDI7gLXJG4RKuJu/G5NP0km9qf3gT6gCe8N4zDcivj4+5UndmGy1i61FeU5FGy7HHVsFxA7L9g==
-
-"@pansy/enhance-type@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/enhance-type/-/enhance-type-0.3.3.tgz#80a9f2672d11cde13bbca5b00ec87268c3a648bc"
-  integrity sha512-VFRxDr5jKDES35eCsZLJ2tYMCxBu6Ng7am3Fi9PBiwC5OEo1W6n7gxLmXF3tF5UgYD+cLa43YOiKQcLFq/wf8A==
 
 "@pansy/get-type@^0.2.1":
   version "0.2.1"
@@ -2184,22 +2156,10 @@
   dependencies:
     "@pansy/enhance-type" "^0.2.1"
 
-"@pansy/get-type@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/get-type/-/get-type-0.3.3.tgz#ac2bfa906052d942ee1e19184a15667d8632ea98"
-  integrity sha512-+2NxeRVjFjBxfHoxzd/xwnT3A6waJG7Qb9O0a1xex+UD0bgTJqWINhybl9llQnRrHjTtVWYnW2lTYPpxDcWs7Q==
-  dependencies:
-    "@pansy/enhance-type" "^0.3.3"
-
 "@pansy/group-by@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/group-by/-/group-by-0.2.1.tgz#16454e3fa3910569bb7723d874c764d671e04540"
   integrity sha512-CqcqleOT18GnqbATKD64AbaDSL5AiGydzACQo7zLNFe3NQUVl7Cs3455XaSCnK49I68iyKToRc9/b2TZcWukPQ==
-
-"@pansy/group-by@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/group-by/-/group-by-0.3.3.tgz#61b7871aae96e2d2cbb3907f76c20b98278ea2d1"
-  integrity sha512-0bTnqAXI+r38UmWN4NiFNY8oIVBTqy6pldJe5jPHwBi4IcUU64poe1iTtkhy/0OHHp2c0KRftuwQrPpugv2z3A==
 
 "@pansy/indent@^0.2.1":
   version "0.2.1"
@@ -2209,23 +2169,10 @@
     "@pansy/is-array" "^0.2.1"
     "@pansy/is-function" "^0.2.1"
 
-"@pansy/indent@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/indent/-/indent-0.3.3.tgz#77b435845d22e7c411aeda7f1b97fc2508037abe"
-  integrity sha512-7+Zy6apfiME2kPtDoCG9wA2Chl2u25MUReslqoYXk4Ag/AuEi/Il6slOJqnNcWrBmh7j/IqvaQ6Hanm4/TPm/A==
-  dependencies:
-    "@pansy/is-array" "^0.3.3"
-    "@pansy/is-function" "^0.3.3"
-
 "@pansy/is-array@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-array/-/is-array-0.2.1.tgz#687d777841c6dad50ccc041f361916122ee16c70"
   integrity sha512-g2JwZwcqwB2tKDvKIqypYUlUWt7/mcQGn0DlXEHSXMsGflSkwE+Ij1INhU9tugf14U13pJlYXC+SUn0uoNo8sA==
-
-"@pansy/is-array@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-array/-/is-array-0.3.3.tgz#44db8cdfa1a1ba7c1e27d26ed0c25879a0564a52"
-  integrity sha512-aK1lfVtUZchB2BqE5sGNWHMnu7c97g7cqjzONhwrj6KI/cL5tilmvcCWRlLxLf8PbJxEe/xhBzSUGc7n5LbaTQ==
 
 "@pansy/is-boolean@^0.2.1":
   version "0.2.1"
@@ -2244,116 +2191,50 @@
   dependencies:
     "@pansy/get-type" "^0.2.1"
 
-"@pansy/is-date@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-date/-/is-date-0.3.3.tgz#1f72f3072c22d1a1ba6140962faa2109a791c203"
-  integrity sha512-U7gyObMCRSVB8WKaKzp8nwYS1ofJovh5wpBbkOuaSLSCykLjUXmePHingKDthDbju+g/IiRp9m6Nvei14KVl2g==
-  dependencies:
-    "@pansy/get-type" "^0.3.3"
-
-"@pansy/is-empty-object@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-empty-object/-/is-empty-object-0.3.3.tgz#55ab7a046814b32127d25404e158a1d00ada6cec"
-  integrity sha512-GWXwUa6Tk5sqxxuzg/80t7UasDdK7PzGu7nCkIXF2Gag8IL7qLdJu620ayAFAZ9RVEgDxGT7x6vTLSs+PY6PvA==
-  dependencies:
-    "@pansy/is-array" "^0.3.3"
-
 "@pansy/is-function@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-function/-/is-function-0.2.1.tgz#fe5369045bada85d916e82804fe1163e4bbd82b4"
   integrity sha512-p74BGQqV/RemD7D0BNvV+51kCGrunOZjzyWCGTKyKndOTHduSDcJAa4CfGA18sJV64+1eVMOd84hH9qyr8r45w==
-
-"@pansy/is-function@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-function/-/is-function-0.3.3.tgz#8c3eb601930239a2af88959feabfc21e01335c93"
-  integrity sha512-7LWkfg8nr741pmHMeyXY69pkSMiAN+wIFe7+yNcCJs4EPdEcEM76AeXZ84yhAoFOYkBOrHWbmkwf2jFUtQCDqA==
 
 "@pansy/is-integer@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-integer/-/is-integer-0.2.1.tgz#03957fa976fa9c8828b94d392b0c754e20fa6cd3"
   integrity sha512-cAWqHHp7vr6Tl4hBx4D+I1/rpFkDbNxQmDV2u9PaXUy9iXfS2hgmCqOnRlVhfLTxZ8rIwyQNrYw34z4rV5auAQ==
 
-"@pansy/is-integer@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-integer/-/is-integer-0.3.3.tgz#53a94345fccb407aae938d4a899ff7a17200e358"
-  integrity sha512-+EPwHeNthQciH8k2RTW6feg12ak8JObtjQ6rXDhX3gles6OutbDnHU+fu6W2P3Tzk+OP6A/cAy/cM7Jt+65Ngg==
-
 "@pansy/is-nan@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-nan/-/is-nan-0.2.1.tgz#2d0ebcfcc45a94b6057cd4cf71600e184a574d62"
   integrity sha512-YKHFIZKvdEbkcWEc9FOvK7NxTO33o6dqzwhJSVxKdoymLnZ/528YezqmS/vYxzKl7AaZPq5cn/CeK0C9moqErQ==
-
-"@pansy/is-nan@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-nan/-/is-nan-0.3.3.tgz#e7978dc748b139651e833e4379bf1ca6a877d625"
-  integrity sha512-o+zVJNN41eS5wrWuz3ghsgfmsPhKlnHp4Vs0cOILbhbk0fN7luvjhMhp74HpWGE4Vr4W+NvEaXXydvAOEqdk6w==
-
-"@pansy/is-negative-integer@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-negative-integer/-/is-negative-integer-0.3.3.tgz#36a7330bd72c8d1accebab1abf54c4840245e34a"
-  integrity sha512-sA8U7YOaspSVOwVcs5NXlEjn9W+OYiuLoL5BhvN4dcv6kcFUWbUh2YPY+UCItbWcb4doOgAyaBBFH26dTJJrWQ==
-  dependencies:
-    "@pansy/is-integer" "^0.3.3"
 
 "@pansy/is-nil@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-nil/-/is-nil-0.2.1.tgz#05231fa41907af09a6d357e5f12bd4977aececbe"
   integrity sha512-1ISftsyFnPGJwGBRP847hRB2x74o3CIj3aectDu9S9NeP+/k15xTp5YVb2FLShEf3liDI6CmTnHjLC+rkeS0JA==
 
-"@pansy/is-nil@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-nil/-/is-nil-0.3.3.tgz#65549aa18860cfcd7965882fd2bb10eb95f5501f"
-  integrity sha512-+XA1KzV1DK6aevifTFzbyTyGO/dsMmclG2HylP/H0YZpYDFGtOsz2nap2qC0I3o48eG58KAQ15Yu+kqzZA16rA==
-
 "@pansy/is-null@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-null/-/is-null-0.2.1.tgz#8f940e84160d9e2683dde3ebf38e869b2312bc8e"
   integrity sha512-ZQc2b4VWZFEh9HJXFkGN1We8wVFWdVY5IEXeIMlK4/6HuGNtuJzqiWCy7cQM5/FxXB2rTe5q2dfR3829BFRb4A==
-
-"@pansy/is-null@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-null/-/is-null-0.3.3.tgz#1980f4f64ec5943819061c87deca831808843d69"
-  integrity sha512-yjFbjC2su28kI22MfTATGd6KopmuW1bHsEHGpCaOYmBWqZ7VlJAGn2GNf2x+XGp+iPoNGTGpxfZueNay0rGVfw==
 
 "@pansy/is-number@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-number/-/is-number-0.2.1.tgz#a2411b657355f3f26948b6f2624847faf3ff5d1a"
   integrity sha512-x/ohMNkPRza4Bd+8FFWAvMUsFyqBQEsAiaJPvEN37odnEO6Xf373DA+Y2/QJdPOaBnDbkQ/Kq0Ea4tuOXDIixA==
 
-"@pansy/is-number@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-number/-/is-number-0.3.3.tgz#a59c4ee376d819d0e4e7e9b8a3d62f08c8c63a65"
-  integrity sha512-OOrmnVvzWw31X0WSVQBFDDJFhalFg8PeYQ/3BvQm8VwURUgeDv+K3EssFJZ726xMetZN8xO0Vtwv2qwgXah4SA==
-
 "@pansy/is-object@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-object/-/is-object-0.2.1.tgz#c214ce4546e4b73659aba2aab198eb22d894aae0"
   integrity sha512-yaN4Iv7iCbcQ6RWkGZtbk/P7gWVbLilFe25TC9ewFNzFd/tiEXe1vAKlbq9y/mqrOj15ZEnngfjip4eKm13vEA==
-
-"@pansy/is-object@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-object/-/is-object-0.3.3.tgz#a05c6afd28ac10141ab1f37f167b0c53dfa35de5"
-  integrity sha512-MvJTXGuFV1SE/OXHQ9u9QOJSfgFvC2gy4ekiAng8x0NzZwpnHvfe7mVSp6GTIzI9yKZC4jGAM30R4T0za5S4BQ==
 
 "@pansy/is-plain-object@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-plain-object/-/is-plain-object-0.2.1.tgz#fe02c18adae8cff04f27ab124f37fcc2b509089d"
   integrity sha512-jfTe5sdHTQBi1g3B6IWIaR+dtyZi1VVoBUVeXvihTZq2XCSz+IySDCLMnqa7prd2/lmUFFT8QTTUCD5hwUDjww==
 
-"@pansy/is-plain-object@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-plain-object/-/is-plain-object-0.3.3.tgz#791076890ed8961d27a41bd3c981e0acb7f043b0"
-  integrity sha512-Iy7i3ZgDi5uxs8lsmIamLGNqK8BQ5ZX3d4CtGhQoesI1GlfuvDeXZAVhLncZZuKnRImQIYkljKBHtlJZQ4TUjg==
-
 "@pansy/is-promise@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-promise/-/is-promise-0.2.1.tgz#f115b684d8e0ed6dc59c77eec3d8a38420778c30"
   integrity sha512-c2e9ozq4jnEvXjXY0+26DXn8lJXATr4s3IGbwPT0NaxpPftkRw1TjUtzzX2bQmK1Dd+1JhAcmp+jQIiS+jUDBA==
-
-"@pansy/is-promise@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-promise/-/is-promise-0.3.3.tgz#2d98a0aaa8094df73677784be740cf9731f6ec98"
-  integrity sha512-7dK3j5JFzymzqbFDuB6g4FzYrBV5TD3Lzd+uCFYquVwYqc6uq9E5etpJwye4bNbIoLdKehKZbEQpBXr/A8d1Tg==
 
 "@pansy/is-regexp@^0.2.1":
   version "0.2.1"
@@ -2362,49 +2243,15 @@
   dependencies:
     "@pansy/get-type" "^0.2.1"
 
-"@pansy/is-regexp@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-regexp/-/is-regexp-0.3.3.tgz#292a43ad9fb93b3ef6793fbf56dafd87fba18a17"
-  integrity sha512-ezHxkkKRkkotHufMCOS19dBAGJafe7H2CZwQHxcoIweBsaw4IRy6aBBsD9Z06HpA/BZvAjx8vaytTmnTN3OCew==
-  dependencies:
-    "@pansy/get-type" "^0.3.3"
-
 "@pansy/is-string@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-string/-/is-string-0.2.1.tgz#9ff7df70440d8739f06058496c295e067937fed9"
   integrity sha512-GJhIa8aO9rF3As9fC+yMlbkKSfV3+Xuon9XBOG7euxMmkVy7EH3SyCZYg8ZGY6fo2uy9iBtTclzd0do1p3oovg==
 
-"@pansy/is-string@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-string/-/is-string-0.3.3.tgz#9fa4c1a3b7321795d41eae68615475749194493c"
-  integrity sha512-5U79YkPwRASW4CLuvOQWeEc8xVvTQAG4bCE+GB0fLkZ/BYClrxxWheS40gvuaFdauikEDeMMPM08ywrbPpptww==
-
-"@pansy/is-symbol@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-symbol/-/is-symbol-0.3.3.tgz#c99b74471d7b227aa884954976b7b8caed2e0b75"
-  integrity sha512-mmbDLy98XUvXDGL3GwY1dTzom/a16X4eCrFVyYsUjPynwBkL48E/Rs0uJJkbwOongr49plHRBWCdcz1f32ev7g==
-  dependencies:
-    "@pansy/get-type" "^0.3.3"
-
 "@pansy/is-undefined@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/is-undefined/-/is-undefined-0.2.1.tgz#33a061043e8bb85bfb31bb39dd82eb5bf7094586"
   integrity sha512-1Mpooefggf2pWcp1DaY1wI+oMKg8iG4GAnpWTbuumNytmky8Bbe/DEyqOj8TfKFwGUU8phQ66A9lYhJirul1Fw==
-
-"@pansy/is-undefined@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/is-undefined/-/is-undefined-0.3.3.tgz#eac4da2245a30f4cd512f55f2f40ee73fd5a1d31"
-  integrity sha512-f+fQAEA63wh1cFrjhlRDt1uFBAGFwatTok6ol1DF+w4PVC6hJUKRrPNAJLiuXv6yROybIutw3oVO0VVHCACwoA==
-
-"@pansy/key-code@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/key-code/-/key-code-0.3.3.tgz#046dbdf52aa429dc908a1d3b18a3499d89c52ae0"
-  integrity sha512-0gfDce9MEBY8aFHmMBF2VICHof5T1+0Mqw5TcoQEIseWvSPBgzfAi6a7zCRltD3V3PmcFpgRg2pW/2CKyiZxYA==
-
-"@pansy/number-precision@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/number-precision/-/number-precision-0.3.3.tgz#4c321a53a02e9f98670540711fe81bbe7ec3294f"
-  integrity sha512-GVG99HL4c291/ltC5WLAA1uwrN5+9P9D6AdWqffxEhYquFR/rbWOYOjQDEFkpmqSfTtb78WsfYTI8Oyf4kfAGw==
 
 "@pansy/policy@^0.2.1":
   version "0.2.1"
@@ -2415,38 +2262,10 @@
     "@pansy/is-array" "^0.2.1"
     "@pansy/is-string" "^0.2.1"
 
-"@pansy/policy@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/policy/-/policy-0.3.3.tgz#78631b2cb1d7958720bf00488bd2a996dc9505b9"
-  integrity sha512-DI8BsHqCxobuQ2kKI6vfrRCiS2ZwPyjdbkRDMfsfbQT3GlnYnKz7j9GW99/C8ssuE16FmP4vHpZP+rQvi+/lqA==
-  dependencies:
-    "@pansy/group-by" "^0.3.3"
-    "@pansy/is-array" "^0.3.3"
-    "@pansy/is-string" "^0.3.3"
-
-"@pansy/replace-object-keys@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/replace-object-keys/-/replace-object-keys-0.3.3.tgz#5f94fa23fb1ffd8e43d321820b9d13f429ec32b0"
-  integrity sha512-mQV9RNlWXvfIFaUx9jDs9vxt/tyz+M30hplrieF7CWAcb4vJhbDm1XE6o3pKRgVx7iXC3LpnXy+sDtv1Uti0pA==
-  dependencies:
-    "@pansy/is-array" "^0.3.3"
-    "@pansy/is-empty-object" "^0.3.3"
-    "@pansy/is-object" "^0.3.3"
-
-"@pansy/round@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/round/-/round-0.3.3.tgz#4690a76707f24427cd8cad6c7a69b724ea2ebfb5"
-  integrity sha512-PDBEFDknifDjgNvWCpKsVty3vgzWdkAxEurwBdDzxKt2g854uFPme03ayiQ10YboiFK2YN5dc6/9pfCAyjIXrw==
-
 "@pansy/url-utils@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@pansy/url-utils/-/url-utils-0.2.1.tgz#a8a50e8d4e1149dab81c72de82055631d3babd42"
   integrity sha512-V+ONl/hldWMbBL4tMi66eE7h53VAUsUUl+mNUOy1MhMcS9vkQGtMMAep4w5KhGsLILiHOTwyYXfZBdfILbToyg==
-
-"@pansy/url-utils@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/url-utils/-/url-utils-0.3.3.tgz#3ed5c3daea697821e0734aebc32108ad227802cd"
-  integrity sha512-2DMFNxl35F8eyR75Xb5zbVualJxCmJ0XVbslEYPm778/LRdxFXzRQ16z+YF26RmDWucN7JepkBfsf2jOSuD2oQ==
 
 "@pansy/utils@^0.2.0":
   version "0.2.1"
@@ -2474,43 +2293,6 @@
     "@pansy/is-undefined" "^0.2.1"
     "@pansy/policy" "^0.2.1"
     "@pansy/url-utils" "^0.2.1"
-
-"@pansy/utils@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@pansy/utils/-/utils-0.3.3.tgz#9c17343c45f5d1d1f7259cc6018011871b5ae42c"
-  integrity sha512-LZ3abUjLOUmQwndyQgtqtUYppD9hJ5mGfi2bjoG7lideZSAjRy8s3r06ayUgjsV8VC0gUwrVj1+YfoIyGZIveA==
-  dependencies:
-    "@pansy/array-move" "^0.3.3"
-    "@pansy/common-regexp" "^0.3.3"
-    "@pansy/delay" "^0.3.3"
-    "@pansy/dent" "^0.3.3"
-    "@pansy/get-type" "^0.3.3"
-    "@pansy/group-by" "^0.3.3"
-    "@pansy/indent" "^0.3.3"
-    "@pansy/is-array" "^0.3.3"
-    "@pansy/is-boolean" "^0.3.3"
-    "@pansy/is-date" "^0.3.3"
-    "@pansy/is-empty-object" "^0.3.3"
-    "@pansy/is-function" "^0.3.3"
-    "@pansy/is-integer" "^0.3.3"
-    "@pansy/is-nan" "^0.3.3"
-    "@pansy/is-negative-integer" "^0.3.3"
-    "@pansy/is-nil" "^0.3.3"
-    "@pansy/is-null" "^0.3.3"
-    "@pansy/is-number" "^0.3.3"
-    "@pansy/is-object" "^0.3.3"
-    "@pansy/is-plain-object" "^0.3.3"
-    "@pansy/is-promise" "^0.3.3"
-    "@pansy/is-regexp" "^0.3.3"
-    "@pansy/is-string" "^0.3.3"
-    "@pansy/is-symbol" "^0.3.3"
-    "@pansy/is-undefined" "^0.3.3"
-    "@pansy/key-code" "^0.3.3"
-    "@pansy/number-precision" "^0.3.3"
-    "@pansy/policy" "^0.3.3"
-    "@pansy/replace-object-keys" "^0.3.3"
-    "@pansy/round" "^0.3.3"
-    "@pansy/url-utils" "^0.3.3"
 
 "@rollup/plugin-alias@^2.2.0":
   version "2.2.0"
@@ -9712,7 +9494,7 @@ react-is@^16.10.2, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6, react-i
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-react-test-renderer@^16.0.0-0:
+react-test-renderer@^16.0.0-0, react-test-renderer@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.12.0.tgz#11417ffda579306d4e841a794d32140f3da1b43f"
   integrity sha512-Vj/teSqt2oayaWxkbhQ6gKis+t5JrknXfPVo+aIJ8QwYAqMPH77uptOdrlphyxl8eQI/rtkOYg86i/UWkpFu0w==
