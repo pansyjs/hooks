@@ -18,8 +18,8 @@ const useFullScreen = (
   const [ref, setRef] = useState<RefObject<Element>>(sourceRef);
 
   useEffect(() => {
-    if (ref) {
-      setRef(ref);
+    if (sourceRef) {
+      setRef(sourceRef);
     } else {
       setRef({
         current: document.documentElement
