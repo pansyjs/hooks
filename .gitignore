@@ -10,6 +10,7 @@ coverage
 node_modules
 
 # build output
+es
 lib
 dist
 
@@ -18,3 +19,4 @@ dist
 .vscode
 
 .DS_Store
+.umi

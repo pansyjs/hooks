@@ -1,29 +1,30 @@
 {
   "compilerOptions": {
-    /* Basic Options */
-    "target": "esnext",
+    "outDir": "build/dist",
     "module": "esnext",
+    "target": "ES2015",
     "lib": ["esnext", "dom"],
-    "jsx": "react",
+    "sourceMap": true,
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-
-    /* Strict Type-Checking Options */
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "alwaysStrict": true,
-    "declaration": true,
-
-    /* Module Resolution Options */
-    "esModuleInterop": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
-    "moduleResolution": "node",
-    "experimentalDecorators": true
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@pansy/hooks": ["./src"]
+    }
   },
-  "include": ["./src"],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "_test_"
+  ]
 }
