@@ -27,7 +27,6 @@
     "react-dom": "^16.9.0"
   },
   "dependencies": {
-    "@pansy/utils": "^0.3.6",
     "lodash": "^4.17.15",
     "screenfull": "^5.0.2"
   },
