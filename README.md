@@ -1,6 +1,6 @@
 <h1 align="center">Pansy Hooks</h1>
 
-> Awesome react hooks
+<h4 align="center">Awesome react hooks<h4>
 
 [![NPM version][image-1]][1] [![NPM downloads][image-2]][2]
 
