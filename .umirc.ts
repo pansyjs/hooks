@@ -1,4 +1,8 @@
 export default {
+  mode: 'site',
+  title: 'Pansy Hooks',
+  dynamicImport: {},
+  hash: true,
   extraBabelPlugins: [
     [
       'import',
@@ -8,6 +12,5 @@ export default {
         style: 'css',
       },
     ],
-  ],
-  disableCSSModules: true
+  ]
 };

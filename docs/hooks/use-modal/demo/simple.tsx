@@ -1,6 +1,11 @@
+/**
+ * title: 默认用法
+ * desc: 默认切换布尔值状态，也可以接收一个参数作为新的值
+ */
 import React, { FC } from 'react';
-import { Modal, Button } from 'antd';
-import { useModal, UseModalResult } from '@pansy/hooks';
+import { Button, Modal } from 'antd';
+import { useModal } from '@pansy/hooks';
+import { UseModalResult } from '@pansy/hooks/es/use-modal';
 
 const LoginModal: FC<UseModalResult> = (props) => {
   const { visible, closeModal } = props;
@@ -19,7 +24,7 @@ const LoginModal: FC<UseModalResult> = (props) => {
   )
 }
 
-const BasicDemo: FC = () => {
+const Example: FC = () => {
   const loginModal = useModal();
 
   return (
@@ -33,4 +38,4 @@ const BasicDemo: FC = () => {
   )
 }
 
-export default BasicDemo;
+export default Example;

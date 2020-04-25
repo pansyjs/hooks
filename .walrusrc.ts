@@ -1,6 +1,6 @@
 const config = {
-  plugins: {
-    release: true
+  release: {
+    buildCommand: "build:lib"
   }
 };
 
