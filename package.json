@@ -41,7 +41,7 @@
     "@walrus/preset-lint": "^1.1.5",
     "@walrus/test": "^1.0.1",
     "antd": "^4.1.1",
-    "dumi": "^1.0.20",
+    "dumi": "^1.0.26",
     "father-build": "^1.18.0",
     "globby": "^11.0.0",
     "husky": "^4.0.10",
