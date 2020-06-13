@@ -13,7 +13,7 @@
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "declaration": false
+    "declaration": true
   },
   "exclude": ["node_modules", "lib", "es", "dist", "**/__tests__", "**/__test__", "**/demo"]
 }
