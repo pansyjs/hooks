@@ -1,88 +1,92 @@
-import { RefObject, useLayoutEffect, useEffect, useState } from 'react';
-import screenFull from 'screenfull';
+import { useLayoutEffect, useRef, MutableRefObject } from 'react';
+import screenfull from 'screenfull';
+import useBoolean from '../use-boolean';
+import { getTargetElement, BasicTarget } from '../utils/dom';
 
-export interface FullScreenOptions {
-  video?: RefObject<HTMLVideoElement>;
-  onClose?: (error?: Error) => void;
+export interface Options {
+  onExitFull?: () => void;
+  onFull?: () => void;
 }
 
-const noop = () => {};
+interface Callback {
+  setFull: () => void;
+  exitFull: () => void;
+  toggleFull: () => void;
+}
 
-const useFullScreen = (
-  sourceRef: RefObject<Element>,
-  on: boolean,
-  options: FullScreenOptions = {}
-): boolean => {
-  const { video, onClose = noop } = options;
-  const [isFullScreen, setIsFullScreen] = useState(on);
-  const [ref, setRef] = useState<RefObject<Element>>(sourceRef);
+type Value = boolean;
+type Result = [Value, Callback];
 
-  useEffect(() => {
-    if (sourceRef) {
-      setRef(sourceRef);
-    } else {
-      setRef({
-        current: document.documentElement
-      });
-    }
-  }, [sourceRef]);
+const useFullscreen =  (target: BasicTarget, options?: Options): Result => {
+  const { onExitFull, onFull } = options || {};
+
+  const onExitFullRef = useRef(onExitFull);
+  onExitFullRef.current = onExitFull;
+
+  const onFullRef = useRef(onFull);
+  onFullRef.current = onFull;
+
+  const [state, { toggle, setTrue, setFalse }] = useBoolean(false);
 
   useLayoutEffect(() => {
-    if (!on) {
-      return;
-    }
-    if (!ref.current) {
+    /* 非全屏时，不需要监听任何全屏事件 */
+    if (!state) {
       return;
     }
 
-    const onWebkitEndFullScreen = () => {
-      video!.current!.removeEventListener('webkitendfullscreen', onWebkitEndFullScreen);
-      onClose();
+    const el = getTargetElement(target);
+    if (!el) {
+      return;
+    }
+
+    /* 监听退出 */
+    const onChange = () => {
+      if (screenfull.isEnabled) {
+        const { isFullscreen } = screenfull;
+        toggle(isFullscreen);
+      }
     };
 
-    const onChange = () => {
-      if (screenFull.isEnabled) {
-        const isScreenFullFullScreen = screenFull.isFullscreen;
-        setIsFullScreen(isScreenFullFullScreen);
-        if (!isScreenFullFullScreen) {
-          onClose();
+    if (screenfull.isEnabled) {
+      try {
+        screenfull.request(el as HTMLElement);
+        setTrue();
+        if (onFullRef.current) {
+          onFullRef.current();
+        }
+      } catch (error) {
+        setFalse();
+        if (onExitFullRef.current) {
+          onExitFullRef.current();
         }
       }
-    };
-
-    if (screenFull.isEnabled) {
-      try {
-        screenFull.request(ref.current);
-        setIsFullScreen(true);
-      } catch (error) {
-        onClose(error);
-        setIsFullScreen(false);
-      }
-      screenFull.on('change', onChange);
-    } else if (video && video.current && video.current.webkitEnterFullscreen) {
-      video.current.webkitEnterFullscreen();
-      video.current.addEventListener('webkitendfullscreen', onWebkitEndFullScreen);
-      setIsFullScreen(true);
-    } else {
-      onClose();
-      setIsFullScreen(false);
+      screenfull.on('change', onChange);
     }
 
+    /* state 从 true 变为 false，则关闭全屏 */
     return () => {
-      setIsFullScreen(false);
-      if (screenFull.isEnabled) {
+      if (screenfull.isEnabled) {
         try {
-          screenFull.off('change', onChange);
-          screenFull.exit();
-        } catch {}
-      } else if (video && video.current && video.current.webkitExitFullscreen) {
-        video.current.removeEventListener('webkitendfullscreen', onWebkitEndFullScreen);
-        video.current.webkitExitFullscreen();
+          screenfull.off('change', onChange);
+          screenfull.exit();
+        } catch (error) {}
+      }
+      if (onExitFullRef.current) {
+        onExitFullRef.current();
       }
     };
-  }, [on, video, ref]);
+  }, [state, typeof target === 'function' ? undefined : target]);
 
-  return isFullScreen;
+  const toggleFull = () => toggle();
+
+  return [
+    !!state,
+    {
+      setFull: setTrue,
+      exitFull: setFalse,
+      toggleFull,
+    }
+  ];
 };
 
-export default useFullScreen;
+export default useFullscreen;

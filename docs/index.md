@@ -15,16 +15,19 @@ features:
     desc: 想学 React Hooks，来这里就够了。
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/6319a122-e8b8-497f-9b45-37cfbe77edaa/k7htfx7t_w144_h144.png
     title: 生产可用
-    desc: 经过线上系统的考验及打磨，健壮性值得信赖。
+    desc: 经过线上系统的考验及打磨。
 footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by [dumi](https://d.umijs.org)
 ---
 
 ## 轻松上手
 
-```bash
+```
 # npm 安装
 npm install @pansy/hooks --save
 
 # yarn 安装
 yarn add @pansy/hooks
+
+# 使用 Hooks
+import { useBoolean } from '@pansy/hooks';
 ```

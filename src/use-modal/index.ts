@@ -9,7 +9,7 @@ export type UseModalResult<T = undefined> = {
 };
 
 const useModal = <T = undefined>(): UseModalResult<T> => {
-  const {state, toggle} = useBoolean(false);
+  const [state, { toggle }] = useBoolean(false);
   const [initValue, setInitValue] = useState<T>();
 
   const openModal = (initValue?: T) => {

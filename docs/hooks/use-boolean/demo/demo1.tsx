@@ -4,10 +4,11 @@
  */
 import React from 'react';
 import { Button, Switch } from 'antd';
+// @ts-ignore
 import { useBoolean } from '@pansy/hooks';
 
 export default () => {
-  const { state, toggle } = useBoolean();
+  const [state, { toggle, setTrue, setFalse }] = useBoolean();
 
   return (
     <div>
@@ -18,10 +19,10 @@ export default () => {
         <Button type="default" onClick={() => toggle()}>
           Toggle
         </Button>
-        <Button type="danger" onClick={() => toggle(false)} style={{ margin: '0 16px' }}>
+        <Button type="dashed" onClick={setFalse} style={{ margin: '0 16px' }}>
           Toggle False
         </Button>
-        <Button type="primary" onClick={() => toggle(true)}>
+        <Button type="primary" onClick={setTrue}>
           Toggle True
         </Button>
       </p>
