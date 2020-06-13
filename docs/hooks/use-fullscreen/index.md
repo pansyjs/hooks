@@ -6,6 +6,7 @@ nav:
 group:
   title: Dom
   path: /dom
+  order: 50
 ---
 
 # useFullscreen
@@ -17,6 +18,10 @@ group:
 ### 基本用法
 
 <code src="./demo/demo1.tsx" />
+
+### 进阶用法
+
+<code src="./demo/demo2.tsx" />
 
 ## API
 
