@@ -11,13 +11,17 @@ group:
 
 # useModal
 
-优雅的使用 Modal 的 Hook。
+优雅的使用 Modal、Drawer 的 Hook。
 
 ## 代码示例
 
-### 基本用法
+### 配合弹框组件使用
 
-<code src="./demo/simple.tsx" />
+<code src="./demo/demo-01.tsx" />
+
+### 配合抽屉组件使用
+
+<code src="./demo/demo-02.tsx" />
 
 ## API
 

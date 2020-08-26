@@ -1,6 +1,6 @@
 /**
- * title: 默认用法
- * desc: 默认切换布尔值状态，也可以接收一个参数作为新的值
+ * title: 弹框示例
+ * desc: 可配合ant-design Modal 组件使用
  */
 import React, { FC } from 'react';
 import { Button, Modal } from 'antd';
@@ -30,7 +30,7 @@ const Example: FC = () => {
   return (
     <>
       <Button type="primary" onClick={() => { loginModal.openModal() }}>
-      点击
+      打开弹框
       </Button>
 
       <LoginModal {...loginModal} />
