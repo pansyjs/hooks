@@ -1,20 +1,64 @@
-export { default as useModal } from './use-modal';
-export { default as useToggle } from './use-toggle';
-export { default as useBoolean } from './use-boolean';
-export { default as usePrevious } from './use-previous';
-export { default as useFullscreen } from './use-fullscreen';
-export { default as usePosition } from './use-position';
-export { default as useSize  } from './use-size';
-export { default as useLocalStorage } from './use-local-storage';
+// 此文件在构建时会自动更新，请勿手动修改! 
+import useBoolean from './use-boolean';
+import useFullscreen from './use-fullscreen';
+import useLocalStorage from './use-local-storage';
+import useLocalStorageState from './use-local-storage-state';
+import useModal from './use-modal';
+import useMount from './use-mount';
+import usePersistFn from './use-persist-fn';
+import usePosition from './use-position';
+import usePrevious from './use-previous';
+import useScroll from './use-scroll';
+import useSessionStorageState from './use-session-storage-state';
+import useSize from './use-size';
+import useStorageState from './use-storage-state';
+import useTimeout from './use-timeout';
+import useToggle from './use-toggle';
+import useUnmount from './use-unmount';
+import useUpdate from './use-update';
+import useUpdateEffect from './use-update-effect';
+import useUpdateLayoutEffect from './use-update-layout-effect';
 
-export { default as useTimeout } from './use-timeout';
-export { default as useLocalStorageState } from './use-local-storage-state';
-export { default as useSessionStorageState } from './use-session-storage-state';
+export {
+  useBoolean,
+  useFullscreen,
+  useLocalStorage,
+  useLocalStorageState,
+  useModal,
+  useMount,
+  usePersistFn,
+  usePosition,
+  usePrevious,
+  useScroll,
+  useSessionStorageState,
+  useSize,
+  useStorageState,
+  useTimeout,
+  useToggle,
+  useUnmount,
+  useUpdate,
+  useUpdateEffect,
+  useUpdateLayoutEffect
+};
 
-export { default as useMount } from './use-mount';
-export { default as useUpdate } from './use-update';
-export { default as useUnmount } from './use-unmount';
-export { default as useUpdateEffect } from './use-update-effect';
-export { default as useUpdateLayoutEffect } from './use-update-layout-effect';
-
-export { default as usePersistFn } from './use-persist-fn';
+export default {
+  useBoolean,
+  useFullscreen,
+  useLocalStorage,
+  useLocalStorageState,
+  useModal,
+  useMount,
+  usePersistFn,
+  usePosition,
+  usePrevious,
+  useScroll,
+  useSessionStorageState,
+  useSize,
+  useStorageState,
+  useTimeout,
+  useToggle,
+  useUnmount,
+  useUpdate,
+  useUpdateEffect,
+  useUpdateLayoutEffect
+};

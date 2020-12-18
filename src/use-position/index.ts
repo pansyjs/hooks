@@ -24,7 +24,7 @@ const usePosition = (
   const [position, setPosition] = useState<PositionInfo>({} as PositionInfo);
   const [error, setError] = useState<string | null>(null);
 
-  const onChange = ({coords, timestamp}: Position) => {
+  const onChange = ({coords, timestamp}: any) => {
     setPosition({
       latitude: coords.latitude,
       longitude: coords.longitude,
@@ -33,7 +33,7 @@ const usePosition = (
     });
   };
 
-  const onError = (error: PositionError) => {
+  const onError = (error: any) => {
     setError(error.message);
   };
 

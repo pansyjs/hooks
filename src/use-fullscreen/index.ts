@@ -8,7 +8,7 @@ export interface Options {
   onFull?: () => void;
 }
 
-interface Callback {
+export interface Callback {
   setFull: () => void;
   exitFull: () => void;
   toggleFull: () => void;
