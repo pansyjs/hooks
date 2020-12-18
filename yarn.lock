@@ -3747,7 +3747,14 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
   integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
 
-"@types/react-dom@16.9.8", "@types/react-dom@^16.9.8":
+"@types/react-dom@16.9.10":
+  version "16.9.10"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.10.tgz#4485b0bec3d41f856181b717f45fd7831101156f"
+  integrity sha512-ItatOrnXDMAYpv6G8UCk2VhbYVTjZT9aorLtA/OzDN9XJ2GKcfam68jutoAcILdRjsRUO8qb7AmyObF77Q8QFw==
+  dependencies:
+    "@types/react" "^16"
+
+"@types/react-dom@^16.9.8":
   version "16.9.8"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
   integrity sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
@@ -3791,6 +3798,14 @@
   version "16.9.47"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.47.tgz#fb092936f0b56425f874d0ff1b08051fdf70c1ba"
   integrity sha512-dAJO4VbrjYqTUwFiQqAKjLyHHl4RSTNnRyPdX3p16MPbDKvow51wxATUPxoe2QsiXNMEYrOjc2S6s92VjG+1VQ==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^3.0.2"
+
+"@types/react@^16":
+  version "16.14.2"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.2.tgz#85dcc0947d0645349923c04ccef6018a1ab7538c"
+  integrity sha512-BzzcAlyDxXl2nANlabtT4thtvbbnhee8hMmH/CcJrISDBVcJS1iOsP1f0OAgSdGE0MsY9tqcrb9YoZcOFv9dbQ==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
