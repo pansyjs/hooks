@@ -40,7 +40,7 @@
     "@walrus/plugin-entry": "0.2.1",
     "@walrus/plugin-release": "1.9.1",
     "@walrus/plugin-test": "1.1.0",
-    "@walrus/preset-lint": "1.1.7",
+    "@walrus/preset-lint": "1.1.8",
     "antd": "4.12.2",
     "dumi": "1.1.4",
     "father-build": "1.19.1",
