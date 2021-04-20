@@ -43,7 +43,7 @@
     "@walrus/preset-lint": "1.1.8",
     "antd": "4.15.2",
     "dumi": "1.1.9",
-    "father-build": "1.19.1",
+    "father-build": "1.19.4",
     "globby": "11.0.3",
     "husky": "5.1.3",
     "raf-stub": "3.0.0",
