@@ -41,7 +41,7 @@
     "@walrus/plugin-release": "1.12.1",
     "@walrus/plugin-test": "1.1.0",
     "@walrus/preset-lint": "1.1.8",
-    "antd": "4.15.2",
+    "antd": "4.16.2",
     "dumi": "1.1.9",
     "father-build": "1.19.6",
     "globby": "11.0.3",
