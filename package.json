@@ -1,6 +1,6 @@
 {
   "name": "@pansy/hooks",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "react hooks",
   "repository": "git@github.com:pansyjs/hooks.git",
   "author": "Pansy Team",
@@ -32,10 +32,10 @@
     "screenfull": "^5.0.2"
   },
   "devDependencies": {
-    "@babel/core": "7.13.16",
-    "@testing-library/react-hooks": "7.0.0",
-    "@types/react": "17.0.3",
-    "@types/react-dom": "17.0.7",
+    "@babel/core": "7.16.0",
+    "@testing-library/react-hooks": "7.0.2",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
     "@walrus/cli": "1.3.4",
     "@walrus/plugin-entry": "0.2.1",
     "@walrus/plugin-release": "1.14.0",
@@ -44,19 +44,13 @@
     "antd": "4.17.2",
     "dumi": "1.1.33",
     "father-build": "1.20.4",
-    "globby": "11.0.3",
-    "husky": "5.1.3",
+    "globby": "12.0.2",
+    "husky": "7.0.4",
     "raf-stub": "3.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-test-renderer": "17.0.1",
+    "react-test-renderer": "17.0.2",
     "typescript": "4.5.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn prettier",
-      "commit-msg": "yarn lint:commit"
-    }
   },
   "publishConfig": {
     "access": "public"

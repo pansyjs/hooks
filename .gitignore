@@ -22,3 +22,4 @@ dist
 
 .DS_Store
 .umi
+install-state.gz
