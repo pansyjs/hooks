@@ -19,12 +19,13 @@ const useModal = <T = undefined>(): UseModalResult<T> => {
 
   const closeModal = () => {
     toggle(false);
+    setInitValue(undefined);
   };
 
   return {
     initValue,
-    openModal,
     visible: state,
+    openModal,
     closeModal,
   };
 };
